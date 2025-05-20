@@ -31,6 +31,10 @@ echo delete SQL backup $db_backup_old.sql
 #
 #how to setup on cron tab like below:
 #
+#make sure your code can execute with command:
+#chmod +x /path/to/backup.sh
+#the command will change permission of file become executable
+#
 #crontab -e
 #0 1 */3 * * /path/to/program.sh
 #
